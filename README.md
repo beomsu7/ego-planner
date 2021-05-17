@@ -14,9 +14,10 @@ catkin_make
 source devel/setup.bash
 roslaunch ego_planner simple_run.launch
 ```
-```
+
 for px4 sitl simulation   
    
+```   
 cd ego-planner
 source devel/setup.bash
 cd ~/PX4-Autopilot
