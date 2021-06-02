@@ -86,7 +86,7 @@
   <!-- use simulator -->
 
 
-    <node pkg="plan_manage" name="traj_msg_converter" type="trajectory_msg_converter_pos.py" output="screen"/>
+    <node pkg="ego_planner" name="traj_msg_converter" type="trajectory_msg_converter_pos.py" output="screen"/>
 
   <include file="$(find ego_planner)/launch/mavros_posix_sitl.launch"/>
 
