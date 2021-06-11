@@ -30,6 +30,11 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 roslaunch ego_planner run_in_sitl_gazebo_px4.launch
 ```
 
+
+in another terminal
+- rosrun mavros mavsafety arm 
+- rosrun mavros mavsys mode -c OFFBOARD   
+
 In my case to visuallize eveything, changed "world" to "map" with vscode
 but the code is not edited
 and you should check the gazebo world, yeah you need to change this
