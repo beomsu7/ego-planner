@@ -10,9 +10,9 @@ You can just execute the following commands one by one.
 sudo apt-get install libarmadillo-dev
 git clone https://github.com/beomsu7/ego-planner
 cd ego-planner
-sudo chmod 777 /src/planner/plan_manage/scripts/trajectory_msg_converter_pos.py
+sudo chmod 777 src/planner/plan_manage/scripts/trajectory_msg_converter_pos.py
 # there is way to make this be done with cmakelists but not working by my self...
-sudo chmod 777 /src/planner/plan_manage/scripts/trajectory_msg_converter_raw.py
+sudo chmod 777 src/planner/plan_manage/scripts/trajectory_msg_converter_raw.py
 catkin_make
 source devel/setup.bash
 roslaunch ego_planner simple_run.launch
